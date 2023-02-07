@@ -12,6 +12,9 @@ const withMDX = nextMDX({
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
+  images: {
+    domains: ['reef.mypinata.cloud']
+  },
   experimental: {
     appDir: true,
   },
