@@ -1,0 +1,11 @@
+{
+  "name": "untitled1994",
+  "version": "1.0.0",
+  "repository": "https://github.com/reefloretto/untitled1994",
+  "author": "Reef Loretto <reefloretto@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "untitled1994"
+  ]
+}
