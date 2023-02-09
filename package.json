@@ -5,6 +5,9 @@
   "author": "Reef Loretto <reefloretto@gmail.com>",
   "license": "MIT",
   "private": true,
+  "scripts": {
+    "dev": "yarn workspace catalog dev"
+  },
   "workspaces": [
     "untitled1994"
   ]
