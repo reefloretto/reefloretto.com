@@ -6,7 +6,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "dev": "yarn workspace catalog dev"
+    "dev": "yarn workspace untitled1994 dev"
   },
   "workspaces": [
     "untitled1994"
