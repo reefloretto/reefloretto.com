@@ -1,5 +1,9 @@
-import IndexContent from "./index.mdx";
+import IndexContent from "./mdx/index.mdx";
 
 export default function Page() {
-  return <IndexContent />;
+  return (
+    <div className="container max-w-3xl">
+      <IndexContent />
+    </div>
+  );
 }
