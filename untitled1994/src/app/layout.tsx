@@ -8,7 +8,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className="overflow-y-auto">
+      <body className="bg-slate-50 h-screen">
         <main>{children}</main>
       </body>
     </html>
