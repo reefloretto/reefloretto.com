@@ -1,5 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  images: {
+    domains: ["reef.mypinata.cloud"],
+  },
   experimental: {
     appDir: true,
     mdxRs: true,
