@@ -60,12 +60,13 @@ export default function RootLayout({
           </div>
           <footer className="text-sm text-neutral-500 my-4">
             <div>
-              © <span>{new Date().getFullYear()}</span> by{" "}
+              © <span>{new Date().getFullYear()}</span>
               <Link
                 className={`${linkHoverClassName}`}
                 href="https://github.com/reefloretto"
                 target="_blank"
               >
+                {" "}
                 Reef Loretto
               </Link>
             </div>
