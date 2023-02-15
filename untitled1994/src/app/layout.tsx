@@ -3,43 +3,33 @@ import Image from "next/image";
 import twitterIcon from "./public/twitter.svg";
 import instagramIcon from "./public/instagram.svg";
 import "./globals.css";
-import HeaderContent from "./header.mdx";
 
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const linkHoverClassName = "hover:opacity-50 transition-all";
   return (
     <html lang="en">
       <head />
       <body className="bg-neutral-50 pt-12">
         <div className="container mt-4 max-w-3xl">
           <div className="text-neutral-900">
-            <HeaderContent />
+            <Link className={`${linkHoverClassName}`} href="/">
+              <h1 className="text-3xl">Reef Loretto</h1>
+            </Link>
             <div className="text-neutral-600 my-4 flex flex-row space-x-3">
-              <Link
-                className="rounded hover:bg-neutral-100 active:bg-neutral-200"
-                href="/"
-              >
+              <Link className={`rounded ${linkHoverClassName}`} href="/">
                 Home
               </Link>
-              <Link
-                className="rounded hover:bg-neutral-100 active:bg-neutral-200"
-                href="/about"
-              >
+              <Link className={`rounded ${linkHoverClassName}`} href="/about">
                 About
               </Link>
-              <Link
-                className="rounded hover:bg-neutral-100 active:bg-neutral-200"
-                href="/blog"
-              >
+              <Link className={`rounded ${linkHoverClassName}`} href="/blog">
                 Blog
               </Link>
-              <Link
-                className="rounded hover:bg-neutral-100 active:bg-neutral-200"
-                href="/contact"
-              >
+              <Link className={`rounded ${linkHoverClassName}`} href="/contact">
                 Contact
               </Link>
             </div>
@@ -48,10 +38,18 @@ export default function RootLayout({
             </div>
           </div>
           <div className="opacity-70 flex flex-row space-x-3 my-4">
-            <Link target="_blank" href="https://twitter.com/reefloretto">
+            <Link
+              className="hover:opacity-20 transition-all"
+              target="_blank"
+              href="https://twitter.com/reefloretto"
+            >
               <Image alt="twitter" src={twitterIcon} width={24} height={24} />
             </Link>
-            <Link target="_blank" href="https://www.instagram.com/reefloretto/">
+            <Link
+              className="hover:opacity-20 transition-all"
+              target="_blank"
+              href="https://www.instagram.com/reefloretto/"
+            >
               <Image
                 alt="instagram"
                 src={instagramIcon}
