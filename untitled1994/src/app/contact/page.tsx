@@ -1,5 +1,5 @@
-import AboutContent from "./page.mdx";
+import Content from "./page.mdx";
 
 export default function Page() {
-  return <AboutContent />;
+  return <Content />;
 }

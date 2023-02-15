@@ -32,6 +32,12 @@ export default function RootLayout({
               </Link>
               <Link
                 className="rounded hover:bg-neutral-100 active:bg-neutral-200"
+                href="/blog"
+              >
+                Blog
+              </Link>
+              <Link
+                className="rounded hover:bg-neutral-100 active:bg-neutral-200"
                 href="/contact"
               >
                 Contact
