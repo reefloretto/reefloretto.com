@@ -2,8 +2,8 @@ export function useMDXComponents(components: {
   [component: string]: React.ComponentType;
 }) {
   return {
-    h1: ({ children }: any) => <h1 className="text-3xl">{children}</h1>,
-    p: ({ children }: any) => <p>{children}</p>,
+    h1: ({ children }: any) => <h1 className="text-2xl my-4">{children}</h1>,
+    p: ({ children }: any) => <p className="my-4">{children}</p>,
     pre: ({ children }: any) => <pre className="my-8">{children}</pre>,
     code: ({ children }: any) => (
       <code className="bg-teal-100 p-3">{children}</code>
