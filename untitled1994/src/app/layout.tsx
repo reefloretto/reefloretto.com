@@ -19,19 +19,19 @@ export default function RootLayout({
             <HeaderContent />
             <div className="text-neutral-500 my-4 flex flex-row space-x-3">
               <Link
-                className="rounded hover:bg-indigo-100 active:bg-indigo-200"
+                className="rounded hover:bg-neutral-100 active:bg-neutral-200"
                 href="/"
               >
                 Home
               </Link>
               <Link
-                className="rounded hover:bg-indigo-100 active:bg-indigo-200"
+                className="rounded hover:bg-neutral-100 active:bg-neutral-200"
                 href="/about"
               >
                 About
               </Link>
               <Link
-                className="rounded hover:bg-indigo-100 active:bg-indigo-200"
+                className="rounded hover:bg-neutral-100 active:bg-neutral-200"
                 href="/contact"
               >
                 Contact
