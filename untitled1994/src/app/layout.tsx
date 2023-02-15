@@ -10,9 +10,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className="bg-slate-50 pt-4">
+      <body className="bg-neutral-50 pt-12">
         <div className="container mt-4 max-w-3xl">
-          <div className="text-stone-900">
+          <div className="text-neutral-900">
             <HeaderContent />
             <div className="my-4 flex flex-row space-x-3">
               <Link href="/">Home</Link>
@@ -23,7 +23,7 @@ export default function RootLayout({
               <main>{children}</main>
             </div>
           </div>
-          <footer className="text-stone-700 my-4">
+          <footer className="text-neutral-500 my-4">
             © <span>{new Date().getFullYear()}</span> by Reef Loretto
           </footer>
         </div>
