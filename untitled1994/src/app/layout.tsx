@@ -9,7 +9,7 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  const linkHoverClassName = "hover:opacity-50 transition-all";
+  const linkHoverClassName = "hover:opacity-20 transition-all";
   return (
     <html lang="en">
       <head />
