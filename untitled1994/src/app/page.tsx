@@ -1,4 +1,4 @@
-import IndexContent from "./index.mdx";
+import IndexContent from "./page.mdx";
 
 export default function Page() {
   return <IndexContent />;
