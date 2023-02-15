@@ -4,7 +4,6 @@ export function useMDXComponents(components: {
   return {
     h1: ({ children }: any) => <h1 className="text-2xl my-4">{children}</h1>,
     p: ({ children }: any) => <p className="my-2">{children}</p>,
-    ul: ({ children }: any) => <ul className="list-disc">{children}</ul>,
     pre: ({ children }: any) => <pre className="my-8">{children}</pre>,
     code: ({ children }: any) => (
       <code className="bg-teal-100 p-3">{children}</code>
