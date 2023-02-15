@@ -41,7 +41,7 @@ export default function RootLayout({
               <main>{children}</main>
             </div>
           </div>
-          <div className="text-neutral-500 flex flex-row space-x-3 my-4">
+          <div className="opacity-80 flex flex-row space-x-3 my-4">
             <Link target="_blank" href="https://twitter.com/reefloretto">
               <Image alt="twitter" src={twitterIcon} width={24} height={24} />
             </Link>
