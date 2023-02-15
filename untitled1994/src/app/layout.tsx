@@ -17,7 +17,7 @@ export default function RootLayout({
         <div className="container mt-4 max-w-3xl">
           <div className="text-neutral-900">
             <HeaderContent />
-            <div className="text-neutral-500 my-4 flex flex-row space-x-3">
+            <div className="text-neutral-600 my-4 flex flex-row space-x-3">
               <Link
                 className="rounded hover:bg-neutral-100 active:bg-neutral-200"
                 href="/"
@@ -37,11 +37,11 @@ export default function RootLayout({
                 Contact
               </Link>
             </div>
-            <div className="my-4">
+            <div className="text-neutral-900 my-4">
               <main>{children}</main>
             </div>
           </div>
-          <div className="opacity-80 flex flex-row space-x-3 my-4">
+          <div className="opacity-70 flex flex-row space-x-3 my-4">
             <Link target="_blank" href="https://twitter.com/reefloretto">
               <Image alt="twitter" src={twitterIcon} width={24} height={24} />
             </Link>
