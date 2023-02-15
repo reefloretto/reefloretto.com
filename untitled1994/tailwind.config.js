@@ -1,21 +1,18 @@
-const defaultTheme = require('tailwindcss/defaultTheme')
+const defaultTheme = require("tailwindcss/defaultTheme");
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./mdx-components.tsx",
-    "./src/**/*.{js,ts,jsx,tsx,md,mdx}",
-  ],
+  content: ["./mdx-components.tsx", "./src/**/*.{js,ts,jsx,tsx,md,mdx}"],
   theme: {
     extend: {
       container: {
         center: true,
-        padding: '2rem',
+        padding: "2rem",
       },
       fontFamily: {
-        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+        sans: ["Familjen Grotesk", ...defaultTheme.fontFamily.sans],
       },
     },
   },
   plugins: [],
-}
+};
