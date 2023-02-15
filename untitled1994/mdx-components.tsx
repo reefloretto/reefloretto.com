@@ -3,7 +3,7 @@ export function useMDXComponents(components: {
 }) {
   return {
     h1: ({ children }: any) => <h1 className="text-2xl my-4">{children}</h1>,
-    p: ({ children }: any) => <p className="my-4">{children}</p>,
+    p: ({ children }: any) => <p className="my-1.5">{children}</p>,
     pre: ({ children }: any) => <pre className="my-8">{children}</pre>,
     code: ({ children }: any) => (
       <code className="bg-teal-100 p-3">{children}</code>
