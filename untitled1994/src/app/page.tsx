@@ -1,3 +1,5 @@
+import IndexContent from "./index.mdx";
+
 export default function Page() {
-  return <div />;
+  return <IndexContent />;
 }
