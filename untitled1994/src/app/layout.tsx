@@ -1,4 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
+import twitterIcon from "./public/twitter.svg";
+import instagramIcon from "./public/instagram.svg";
 import "./globals.css";
 import HeaderContent from "./header.mdx";
 
@@ -38,8 +41,23 @@ export default function RootLayout({
               <main>{children}</main>
             </div>
           </div>
-          <footer className="text-sm text-neutral-500 my-8">
-            © <span>{new Date().getFullYear()}</span> by Reef Loretto
+          <div className="text-neutral-500 flex flex-row space-x-3 my-4">
+            <Link target="_blank" href="https://twitter.com/reefloretto">
+              <Image alt="twitter" src={twitterIcon} width={24} height={24} />
+            </Link>
+            <Link target="_blank" href="https://www.instagram.com/reefloretto/">
+              <Image
+                alt="instagram"
+                src={instagramIcon}
+                width={24}
+                height={24}
+              />
+            </Link>
+          </div>
+          <footer className="text-sm text-neutral-500 my-4">
+            <div>
+              © <span>{new Date().getFullYear()}</span> by Reef Loretto
+            </div>
           </footer>
         </div>
       </body>
