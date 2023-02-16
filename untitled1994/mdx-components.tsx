@@ -3,6 +3,9 @@ export function useMDXComponents(components: {
 }) {
   return {
     h1: ({ children }: any) => <h1 className="text-2xl my-4">{children}</h1>,
+    h3: ({ children }: any) => (
+      <h3 className="font-sans text-3xl my-4">{children}</h3>
+    ),
     p: ({ children }: any) => <p className="my-2">{children}</p>,
     pre: ({ children }: any) => <pre className="my-8">{children}</pre>,
     code: ({ children }: any) => (

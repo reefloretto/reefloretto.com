@@ -1,5 +1,10 @@
+import BlogLayout from "../bloglayout";
 import Content from "./page.mdx";
 
 export default function Page() {
-  return <Content />;
+  return (
+    <BlogLayout>
+      <Content />
+    </BlogLayout>
+  );
 }
