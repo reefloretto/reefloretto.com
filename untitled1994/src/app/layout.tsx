@@ -7,6 +7,7 @@ import linkedInIcon from "./images/linkedin.svg";
 import spotifyIcon from "./images/spotify.svg";
 import appleMusicIcon from "./images/applemusic.svg";
 import soundCloudIcon from "./images/soundcloud.svg";
+import bandcampIcon from "./images/bandcamp.svg";
 import mailIcon from "./images/mail.svg";
 import "./globals.css";
 
@@ -21,6 +22,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   const linkHoverClassName = "hover:opacity-20 transition-all";
+  const iconHoverClassName =
+    "opacity-30 hover:opacity-90 active:opacity-10 transition-all";
   return (
     <html lang="en">
       <head />
@@ -48,16 +51,16 @@ export default function RootLayout({
               <main>{children}</main>
             </div>
           </div>
-          <div className="opacity-70 flex flex-row space-x-3 my-4">
+          <div className="flex flex-row space-x-3 my-4">
             <Link
-              className="hover:opacity-20 transition-all"
+              className={`${iconHoverClassName}}`}
               target="_blank"
               href="https://twitter.com/reefloretto"
             >
               <Image alt="twitter" src={twitterIcon} width={24} height={24} />
             </Link>
             <Link
-              className="hover:opacity-20 transition-all"
+              className={`${iconHoverClassName}}`}
               target="_blank"
               href="https://www.instagram.com/reefloretto/"
             >
@@ -69,14 +72,14 @@ export default function RootLayout({
               />
             </Link>
             <Link
-              className="hover:opacity-20 transition-all"
+              className={`${iconHoverClassName}}`}
               target="_blank"
               href="https://open.spotify.com/artist/7G7ksSJ4R5bwi7DqW4HkXE?si=g7aHrQUjTSqIW7LqqKt7Rg"
             >
               <Image alt="spotify" src={spotifyIcon} width={24} height={24} />
             </Link>
             <Link
-              className="hover:opacity-20 transition-all"
+              className={`${iconHoverClassName}}`}
               target="_blank"
               href="https://music.apple.com/us/artist/reef-loretto/654440007"
             >
@@ -88,7 +91,7 @@ export default function RootLayout({
               />
             </Link>
             <Link
-              className="hover:opacity-20 transition-all"
+              className={`${iconHoverClassName}}`}
               target="_blank"
               href="https://soundcloud.com/reefloretto"
             >
@@ -100,14 +103,21 @@ export default function RootLayout({
               />
             </Link>
             <Link
-              className="hover:opacity-20 transition-all"
+              className={`${iconHoverClassName}}`}
+              target="_blank"
+              href="https://reefloretto.bandcamp.com/"
+            >
+              <Image alt="bandcamp" src={bandcampIcon} width={24} height={24} />
+            </Link>
+            <Link
+              className={`${iconHoverClassName}}`}
               target="_blank"
               href="https://www.linkedin.com/in/reefloretto/"
             >
               <Image alt="linkedin" src={linkedInIcon} width={24} height={24} />
             </Link>
             <Link
-              className="hover:opacity-20 transition-all"
+              className={`${iconHoverClassName}}`}
               target="_blank"
               href="mailto:r@reefloretto.com"
             >
