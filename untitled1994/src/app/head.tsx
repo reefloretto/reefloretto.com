@@ -4,7 +4,10 @@ export default function Head() {
     <>
       <title>Reef Loretto</title>
       <meta content="width=device-width, initial-scale=1" name="viewport" />
-      <meta name="description" content="Reef Loretto personal website" />
+      <meta
+        name="description"
+        content="Reef Loretto is an Arab-American musician based in Brooklyn, New York."
+      />
       <link rel="icon" href="/favicon.ico" />
       <Script
         defer
