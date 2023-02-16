@@ -1,4 +1,4 @@
-import BlogLayout from "../bloglayout";
+import BlogLayout from "../layouts/blog";
 import Content from "./page.mdx";
 
 export default function Page() {

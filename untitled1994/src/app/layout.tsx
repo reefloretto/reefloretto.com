@@ -1,12 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
-import twitterIcon from "./public/twitter.svg";
-import instagramIcon from "./public/instagram.svg";
-import linkedInIcon from "./public/linkedin.svg";
-import spotifyIcon from "./public/spotify.svg";
-import appleMusicIcon from "./public/applemusic.svg";
-import mailIcon from "./public/mail.svg";
+import twitterIcon from "./images/twitter.svg";
+import instagramIcon from "./images/instagram.svg";
+import linkedInIcon from "./images/linkedin.svg";
+import spotifyIcon from "./images/spotify.svg";
+import appleMusicIcon from "./images/applemusic.svg";
+import soundCloudIcon from "./images/soundcloud.svg";
+import mailIcon from "./images/mail.svg";
 import "./globals.css";
 
 const font = Inter({
@@ -82,6 +83,18 @@ export default function RootLayout({
               <Image
                 alt="applemusic"
                 src={appleMusicIcon}
+                width={24}
+                height={24}
+              />
+            </Link>
+            <Link
+              className="hover:opacity-20 transition-all"
+              target="_blank"
+              href="https://open.spotify.com/artist/7G7ksSJ4R5bwi7DqW4HkXE?si=g7aHrQUjTSqIW7LqqKt7Rg"
+            >
+              <Image
+                alt="soundcloud"
+                src={soundCloudIcon}
                 width={24}
                 height={24}
               />
