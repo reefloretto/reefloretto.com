@@ -10,7 +10,7 @@ module.exports = {
         padding: "2rem",
       },
       fontFamily: {
-        sans: ["var(--font-inter)", ...defaultTheme.fontFamily.sans],
+        sans: ["var(--font-space-grotesk)", ...defaultTheme.fontFamily.sans],
       },
     },
   },

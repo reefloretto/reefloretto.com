@@ -9,9 +9,9 @@ import appleMusicIcon from "./public/applemusic.svg";
 import mailIcon from "./public/mail.svg";
 import "./globals.css";
 
-const inter = Space_Grotesk({
+const font = Space_Grotesk({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-space-grotesk",
 });
 
 export default function RootLayout({
@@ -23,7 +23,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head />
-      <body className={`${inter.variable} font-sans bg-neutral-50 pt-12`}>
+      <body className={`${font.variable} font-sans bg-neutral-50 pt-12`}>
         <div className="container mt-4 max-w-3xl">
           <div className="text-neutral-900">
             <Link className={`${linkHoverClassName}`} href="/">
