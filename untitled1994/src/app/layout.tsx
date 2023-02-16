@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Space_Grotesk } from "@next/font/google";
+import { Inter } from "@next/font/google";
 import twitterIcon from "./public/twitter.svg";
 import instagramIcon from "./public/instagram.svg";
 import linkedInIcon from "./public/linkedin.svg";
@@ -9,9 +9,9 @@ import appleMusicIcon from "./public/applemusic.svg";
 import mailIcon from "./public/mail.svg";
 import "./globals.css";
 
-const font = Space_Grotesk({
+const font = Inter({
   subsets: ["latin"],
-  variable: "--font-space-grotesk",
+  variable: "--font-inter",
 });
 
 export default function RootLayout({
