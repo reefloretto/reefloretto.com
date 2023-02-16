@@ -2,6 +2,10 @@ import Link from "next/link";
 import Image from "next/image";
 import twitterIcon from "./public/twitter.svg";
 import instagramIcon from "./public/instagram.svg";
+import linkedInIcon from "./public/linkedin.svg";
+import spotifyIcon from "./public/spotify.svg";
+import appleMusicIcon from "./public/applemusic.svg";
+import mailIcon from "./public/mail.svg";
 import "./globals.css";
 
 export default function RootLayout({
@@ -56,6 +60,39 @@ export default function RootLayout({
                 width={24}
                 height={24}
               />
+            </Link>
+            <Link
+              className="hover:opacity-20 transition-all"
+              target="_blank"
+              href="https://open.spotify.com/artist/7G7ksSJ4R5bwi7DqW4HkXE?si=g7aHrQUjTSqIW7LqqKt7Rg"
+            >
+              <Image alt="spotify" src={spotifyIcon} width={24} height={24} />
+            </Link>
+            <Link
+              className="hover:opacity-20 transition-all"
+              target="_blank"
+              href="https://music.apple.com/us/artist/reef-loretto/654440007"
+            >
+              <Image
+                alt="applemusic"
+                src={appleMusicIcon}
+                width={24}
+                height={24}
+              />
+            </Link>
+            <Link
+              className="hover:opacity-20 transition-all"
+              target="_blank"
+              href="https://www.linkedin.com/in/reefloretto/"
+            >
+              <Image alt="linkedin" src={linkedInIcon} width={24} height={24} />
+            </Link>
+            <Link
+              className="hover:opacity-20 transition-all"
+              target="_blank"
+              href="mailto:r@reefloretto.com"
+            >
+              <Image alt="mail" src={mailIcon} width={24} height={24} />
             </Link>
           </div>
           <footer className="font-extralight text-sm text-neutral-500 my-4">
