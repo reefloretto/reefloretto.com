@@ -90,7 +90,7 @@ export default function RootLayout({
             <Link
               className="hover:opacity-20 transition-all"
               target="_blank"
-              href="https://open.spotify.com/artist/7G7ksSJ4R5bwi7DqW4HkXE?si=g7aHrQUjTSqIW7LqqKt7Rg"
+              href="https://soundcloud.com/reefloretto"
             >
               <Image
                 alt="soundcloud"
