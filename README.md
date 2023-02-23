@@ -1,2 +1,6 @@
-# untitled1994
-A digital cabinet designed for the study of things unknown.
+Dear friend,
+
+Welcome to my corner of the internet. Browse around, stay curious, and be safe. ✨ 
+
+Love,
+Reef
