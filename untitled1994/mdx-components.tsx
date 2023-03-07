@@ -14,6 +14,9 @@ export function useMDXComponents(components: {
     img: ({ children }: any) => (
       <img className="object-contain aspect-auto relative w-7" src={children} />
     ),
+    a: ({ children, ...props }: any) => (
+      <a className="text-zinc-700 font-bold" target="_blank" {...props}>{children}</a>
+    ),
     ...components,
   };
 }

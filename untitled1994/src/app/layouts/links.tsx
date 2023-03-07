@@ -9,7 +9,7 @@ export default function Links() {
     <Link className={`rounded ${linkHoverClassName}`} href="/about">
       About
     </Link>
-    <Link className={`rounded ${linkHoverClassName}`} href="/blog">
+    <Link className={`rounded ${linkHoverClassName}`} target="_blank" href="https://reefloretto.substack.com/">
       Blog
     </Link>
     <Link className={`rounded ${linkHoverClassName}`} href="/contact">
